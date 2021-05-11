@@ -1,0 +1,46 @@
+.Navbar {
+  background-color: #efede0;
+  padding: 0 30px 0 20px;
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__TeamName {
+  float: left;
+  font-size: 150%;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.2);
+  height: 36px;
+}
+
+.Navbar__Form {
+  margin-left: 10px;
+}
+
+.Navbar__FormInput {
+  width: 350px;
+  height: 36px;
+  transition: width 0.2s ease-out;
+  padding: 0 30px;
+  padding-left: 32px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #3c4a60;
+}
+
+.Navbar__FormInput:focus {
+  background-color: white;
+}
+
+.Navbar__FormInput:disabled {
+  background-color: #eee;
+}
