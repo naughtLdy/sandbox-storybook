@@ -9,7 +9,6 @@
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test",
-    "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -42,7 +41,6 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.23.2",
-    "husky": "6.0.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "26.6.3",
     "jest-watch-typeahead": "0.6.3",
